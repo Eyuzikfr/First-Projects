@@ -142,7 +142,7 @@ int winchecker(char* p, int player)
         }
         
         // vertical win
-        else if( (p[0] == 'X' && p[3] == 'X' && p[6] == 'X') || (p[1] == 'X' && p[5] == 'X' && p[7] == 'X') || (p[2] == 'X' && p[5] == 'X' && p[8] == 'X') )
+        else if( (p[0] == 'X' && p[3] == 'X' && p[6] == 'X') || (p[1] == 'X' && p[4] == 'X' && p[7] == 'X') || (p[2] == 'X' && p[5] == 'X' && p[8] == 'X') )
         {
             cout << "Player 1 Wins!" << endl;
             system("pause");
@@ -170,7 +170,7 @@ int winchecker(char* p, int player)
         }
         
         // vertical win
-        else if( (p[0] == 'O' && p[3] == 'O' && p[6] == 'O') || (p[1] == 'O' && p[5] == 'X' && p[7] == 'O') || (p[2] == 'O' && p[5] == 'O' && p[8] == 'O') )
+        else if( (p[0] == 'O' && p[3] == 'O' && p[6] == 'O') || (p[1] == 'O' && p[4] == 'O' && p[7] == 'O') || (p[2] == 'O' && p[5] == 'O' && p[8] == 'O') )
         {
             cout << "Player 2 Wins!" << endl;
             system("pause");
