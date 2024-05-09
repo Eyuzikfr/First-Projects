@@ -150,7 +150,7 @@ int winchecker(char* p, int player)
         }
 
         // diagonal checking
-        else if(  (p[0] == 'X' && p[4] == 'X' && p[8] == 'X') || (p[2] == 'X' && p[4] == 'X' && p[7] == 'X') )
+        else if(  (p[0] == 'X' && p[4] == 'X' && p[8] == 'X') || (p[2] == 'X' && p[4] == 'X' && p[6] == 'X') )
         {
             cout << "Player 1 Wins!" << endl;
             system("pause");
